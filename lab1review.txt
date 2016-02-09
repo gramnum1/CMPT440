@@ -1,0 +1,11 @@
+10 pts
+
+Both essays respond and address the question correctly. Good job!
+
+The DFA looks good; however, I think you are confusing $\Sigma$ with
+$\Sigma^*$. They are both quite different. $\Sigma^*$ is the set of all
+possible words in the language while $\Sigma$ is the alphabet, or the set of
+all the symbols in your language.
+
+
+- Dr. Rivas
