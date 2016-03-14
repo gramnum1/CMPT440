@@ -1,0 +1,1 @@
+*-Rejected 1 because of UPPERCASE letters and numbers in comment-* print ( 5 + 5 )

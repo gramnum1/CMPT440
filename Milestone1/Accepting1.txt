@@ -1,0 +1,1 @@
+*- accepting program one declares a b defines a as five defines b as five plus a -* var a a = 2 var b b = 5 + a
