@@ -1,0 +1,1 @@
+*-rejected three because spacing is incorrect in statements-*print("wrong" ) var b b=25*-statements including comments must be seperated by spaces-*

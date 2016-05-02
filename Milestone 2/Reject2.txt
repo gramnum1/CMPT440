@@ -1,0 +1,1 @@
+*-rejected two because intexpr requires a digit first then another digit or an identifier-* var b b = 3 var c c = b + 35

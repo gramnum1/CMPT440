@@ -1,0 +1,1 @@
+*-rejected 5 because you cannot join a var declaration with an assignment statement-* var a = 5 var b b=3 print ( a ) print ( b )

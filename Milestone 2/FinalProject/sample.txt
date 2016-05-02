@@ -1,0 +1,13 @@
+*-comment-* print ( a ) var b b = 10 print ( "error" )
+HTML: *-comment-* print ( a ) var b b = 10 print ( "error" )
+>java driverDFA *-comment-* print ( a ) var b b = 10 print ( "error" )
+That is a solution
+<span style="color: green;">*-comment-* </span><span style="color: blue;">print ( a ) </span><span style="color: brown;">var b </span><span style="color: gold;">b = 10</span><span style="color: gold;"> </span><span style="color: blue;">print ( "error" )</span>
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><p><font color="#008000" face="Segoe UI">*- accepting program one declares a b defines a as five defines b as five plus a -* var a a = 2 var b b = 5 + a</font></p><p><font color="#008000" face="Segoe UI"><br></font></p></body></html>
+>java driverDFA *- accepting program one declares a b defines a as five defines b as five plus a -* var a a = 2 var b b = 5 + a
+That is a solution
+<span style="color: green;">*- accepting program one declares a b defines a as five defines b as five plus a -* </span><span style="color: brown;">var a </span><span style="color: gold;">a = 2 </span><span style="color: brown;">var b </span><span style="color: gold;">b = 5 </span><span style="color: gold;">+ a</span>
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><p><font color="#008000" face="Segoe UI">*-accepting two print charlist hello-* print ( "hello" )</font></p><p><font color="#008000" face="Segoe UI"><br></font></p></body></html>
+>java driverDFA *-accepting two print charlist hello-* print ( "hello" )
+That is a solution
+<span style="color: green;">*-accepting two print charlist hello-* </span><span style="color: blue;">print ( "hello" )</span>

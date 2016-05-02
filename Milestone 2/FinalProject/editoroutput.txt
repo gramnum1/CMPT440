@@ -1,0 +1,29 @@
+*-comment -* print ( a )
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a )</span><div><span style="color: blue;"><br></span></div></body></html>
+>java driverDFA *-comment -* print ( a )
+[q0 10][q33 9][q34 0][q35 0][q35 0][q35 0][q35 0][q35 13][q35 14][q35 3][q35 9][q36 10][q37 3]  Comment
+[q0 1][q1 11][q2 12][q3 13][q4 14][q5 3][q6 7][q7 3][q8 15][q14 3][q12 8]  Print Command
+That is a solution
+<span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a )</span>
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a )</span></body></html>
+>java driverDFA *-comment -* print ( a )
+[q0 10][q33 9][q34 0][q35 0][q35 0][q35 0][q35 0][q35 13][q35 14][q35 3][q35 9][q36 10][q37 3]  Comment
+[q0 1][q1 11][q2 12][q3 13][q4 14][q5 3][q6 7][q7 3][q8 15][q14 3][q12 8]  Print Command
+That is a solution
+<span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a )</span>
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a )</span><div><span style="color: blue;"><br></span></div></body></html>
+>java driverDFA *-comment -* print ( a )
+[q0 10][q33 9][q34 0][q35 0][q35 0][q35 0][q35 0][q35 13][q35 14][q35 3][q35 9][q36 10][q37 3]  Comment
+[q0 1][q1 11][q2 12][q3 13][q4 14][q5 3][q6 7][q7 3][q8 15][q14 3][q12 8]  Print Command
+That is a solution
+<span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a )</span>
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><span style="color: green;">*-comment -* </span><span style="color: blue;">print ( a&nbsp;</span><div><span style="color: blue;"><br></span></div></body></html>
+>java driverDFA *-comment -* print ( a
+[q0 10][q33 9][q34 0][q35 0][q35 0][q35 0][q35 0][q35 13][q35 14][q35 3][q35 9][q36 10][q37 3]  Comment
+[q0 1][q1 11][q2 12][q3 13][q4 14][q5 3][q6 7][q7 3][q8 15]That is not a solution. q14
+<span style="color: green;">*-comment -* </span>print ( a
+HTML: <html dir="ltr"><head></head><body contenteditable="true"><span style="color: green;">*-comment -* </span>print ( a)<div><br></div></body></html>
+>java driverDFA *-comment -* print ( a)
+[q0 10][q33 9][q34 0][q35 0][q35 0][q35 0][q35 0][q35 13][q35 14][q35 3][q35 9][q36 10][q37 3]  Comment
+[q0 1][q1 11][q2 12][q3 13][q4 14][q5 3][q6 7][q7 3][q8 15][q14 8]That is not a solution. q40
+<span style="color: green;">*-comment -* </span><span style="color: red;">print ( a)</span>
