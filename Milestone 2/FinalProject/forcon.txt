@@ -1,0 +1,5 @@
+*-this is a comment-* var a a = 5 print ( a )
+HTML: *-this is a comment-* var a a = 5 print ( a )
+>java driverDFA *-this is a comment-* var a a = 5 print ( a )
+That is a solution
+<span style="color: green;">*-this is a comment-* </span><span style="color: brown;">var a </span><span style="color: gold;">a = 5 </span><span style="color: blue;">print ( a )</span>

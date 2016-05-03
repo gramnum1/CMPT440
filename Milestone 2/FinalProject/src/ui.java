@@ -46,8 +46,9 @@ public class ui extends Application {
 	               			save(result.get(),stripHTMLTags(htmlEditor.getHtmlText()));	
 	            		}
 					} catch (Exception e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						System.out.println("Invalid file name");
+						
+					
 					}
 	            	
 	            	
@@ -111,8 +112,7 @@ public class ui extends Application {
 	 * @return string sb
 	 */
 	private String stripHTMLTags(String htmlText) {
-		System.out.println("HTML: "+htmlText);
-
+		
         Pattern pattern = Pattern.compile("<[^>]*>");
         Matcher matcher = pattern.matcher(htmlText);
         final StringBuffer sb = new StringBuffer(htmlText.length());
