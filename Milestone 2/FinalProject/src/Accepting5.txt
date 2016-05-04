@@ -1,0 +1,1 @@
+*-accepting five declares p and v and assigns p three and v a charlist and prints four plus p and v-* var p p = 3 var v v = "text" print ( 4 + p ) print ( v )

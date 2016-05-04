@@ -1,0 +1,1 @@
+*-accepting four declares a assigns a a charlist print a-* var a a = "hello world" print ( a )
